@@ -29,7 +29,7 @@ We have ordered our columns
 -   `name_program`
 
 ``` r
-testdata <- read.csv("C:/Users/tymax/Downloads/fsr_input (1).tsv.gz", sep = ',', header = TRUE)
+testdata <- read.csv("...", sep = ',', header = TRUE)
 dat <- testdata
 dat <- dat[,c("name_department_award",  "name_agency_award", "name_program","amount_award", "state_company")]
 ```
